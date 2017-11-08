@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-module
+  type="WEB"
+  name="MySpringmvcHibernateEasyUi"
+  id="myeclipse.1508233743153"
+  context-root="/MySpringmvcHibernateEasyUi"
+  j2ee-spec="5.0"
+  archive="MySpringmvcHibernateEasyUi.war">
+  <attributes>
+    <attribute name="webrootdir" value="WebRoot" />
+  </attributes>
+</project-module>
+

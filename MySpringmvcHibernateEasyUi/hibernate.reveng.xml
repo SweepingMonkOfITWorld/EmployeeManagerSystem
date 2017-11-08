@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-reverse-engineering PUBLIC "-//Hibernate/Hibernate Reverse Engineering DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-reverse-engineering-3.0.dtd" >
+
+<hibernate-reverse-engineering>
+	<table name="USERINFO" schema="SCOTT" class="com.po.User">
+		<primary-key>
+			<generator class="increment"></generator>
+		</primary-key>
+	</table>
+	<table name="T_NAVIGATION" schema="SCOTT"
+		class="com.po.Navigation">
+		<primary-key>
+			<generator class="increment"></generator>
+		</primary-key>
+	</table>
+	<table name="EMP" schema="SCOTT" class="com.po.Emp">
+		<primary-key>
+			<generator class="increment"></generator>
+		</primary-key>
+	</table>
+<table name="DEPT" schema="SCOTT" class="com.po.Dept">
+	<primary-key>
+		<generator class="increment"></generator>
+	</primary-key>
+</table>
+</hibernate-reverse-engineering>
